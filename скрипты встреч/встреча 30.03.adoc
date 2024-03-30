@@ -13,13 +13,14 @@
 
 ```mermaid
 sequenceDiagram
-    actor студия
-    participant занятия
-    participant мероприятия
-    participant анонсы
-    студия->>занятия
-    студия->>мероприятия
-    студия->>анонсы
+    actor студия;
+    participant занятия;
+    participant мероприятия;
+    participant анонсы;
+
+    студия-->занятия;
+    студия-->мероприятия;
+    студия-->анонсы;
 ```
 
 == заметки
