@@ -1,0 +1,24 @@
+.baner {
+    width: 100%;
+    height: 220px;
+    position: relative;
+}
+  
+  .banner img {
+    background-size: auto;
+}
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+  
+  .text h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+  
