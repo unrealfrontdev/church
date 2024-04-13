@@ -1,0 +1,19 @@
+.annonses {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.annons {
+    width: calc(33.33% - 111px);
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+  
+.annons img {
+    width: 100%;
+}
+  
+.annons p {
+    margin-top: 10px;
+}
+  
